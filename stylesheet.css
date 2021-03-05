@@ -1,0 +1,233 @@
+body {
+  font-family: "Segoe UI";
+  color:#404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #404146;
+  color: #e7e7e7;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.header-left {
+  float: left;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+  padding: 24px 40px;
+}
+
+.logo {
+  width: 70px;
+  margin-top: 12px;
+  margin-right: 40px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  font-size: 26px;
+  padding: 10px 20px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color:#f2d00d;
+}
+
+.top-wrapper {
+  padding: 70px 0 0px 0;
+  background-color: #f8f3e6;
+  background-size: cover;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  padding: 60 0px;
+  margin: 60 auto;
+}
+
+.container h1 {
+  font-size: 20px;
+  margin-bottom: 0px;
+  letter-spacing: 3px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-left: 5px;
+  text-align: Center;
+}
+
+.container h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: Center;
+}
+
+.container p {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: Center;
+}
+
+.container span {
+  color: #f2d00d;
+}
+
+.profil-picture img {
+  height: 330px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.about {
+  height: 300px;
+  background-color: #f7ea8a;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+}
+
+.about h2 {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: Center;
+}
+
+.about p {
+  padding: 20px 150px;
+  font-size: 26px;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.about span {
+  color: #FFD700;
+  font-weight: 700;
+}
+
+.contents {
+  height: 500px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color:#f4e8c1;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.contents h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.contents-item {
+  float: left;
+  width: 33.3%;
+}
+
+.contents-item img{
+  height: 300px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  height: 500px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: rgb(244, 244, 244);
+  margin-top: 0px;
+  width: 100%;
+}
+
+.contact-title {
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color:#7C7D83;
+}
+
+.contact-submit{
+  width: 500px;
+  background-color:#f7ea8a;
+  color:#4f4f4f;
+  font-size: 22px;
+}
+
+.contact-form p{
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #404146;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  font-size: 30px;
+  font-weight:700;
+  letter-spacing: 10px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color:#f2d00d;
+}
+
